@@ -28,7 +28,7 @@ public class NumberWizzard : MonoBehaviour {
         max = max + 1;
     }
 	
-	// Update is called once per frame
+	
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -56,4 +56,6 @@ public class NumberWizzard : MonoBehaviour {
         guess = (max + min) / 2;
         Debug.Log("Is it higher or lower than" + guess);
     }
+
+    // Great work Test
 }
